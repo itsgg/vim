@@ -30,6 +30,7 @@ Plug 'KabbAmine/zeavim.vim'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'mattn/emmet-vim'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 " Plugin Settings
