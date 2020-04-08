@@ -8,10 +8,12 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 set nobackup
+set noswapfile
 set hidden
 set splitbelow
 set termguicolors
 set hlsearch!
+set signcolumn=yes
 
 " Plugin Manager
 call plug#begin('~/.vim/plugged')
@@ -26,10 +28,10 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdtree'
-Plug 'KabbAmine/zeavim.vim'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 " Plugin Settings
