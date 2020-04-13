@@ -14,6 +14,7 @@ set splitbelow
 set termguicolors
 set hlsearch!
 set signcolumn=yes
+set clipboard=unnamedplus
 
 " Plugin Manager
 call plug#begin('~/.vim/plugged')

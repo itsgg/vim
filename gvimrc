@@ -5,4 +5,3 @@ set lines=60
 set columns=100
 set noerrorbells
 set vb t_vb=
-set clipboard=unnamedplus
