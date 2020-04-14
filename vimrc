@@ -44,6 +44,7 @@ let g:LanguageClient_serverCommands = {
     \ 'python': ['~/.asdf/shims/pyls'],
     \ 'ruby': ['~/.asdf/shims/solargraph', 'stdio'],
     \ }
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Keybindings
 noremap <Space> <NOP>
