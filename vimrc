@@ -33,6 +33,10 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'mattn/emmet-vim'
 Plug 'tpope/vim-commentary'
+Plug 'IN3D/vim-raml'
+Plug 'tyru/open-browser.vim'
+Plug 'aklt/plantuml-syntax'
+Plug 'weirongxu/plantuml-previewer.vim'
 call plug#end()
 
 " Plugin Settings
