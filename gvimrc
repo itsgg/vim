@@ -1,4 +1,3 @@
-set guifont=Consolas\ 12
 set guioptions-=T
 set guioptions-=m
 set lines=60
