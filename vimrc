@@ -29,7 +29,6 @@ Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 Plug 'junegunn/fzf'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdtree'
@@ -41,7 +40,14 @@ Plug 'IN3D/vim-raml'
 Plug 'tyru/open-browser.vim'
 Plug 'aklt/plantuml-syntax'
 Plug 'weirongxu/plantuml-previewer.vim'
+Plug 'google/vim-maktaba'
+Plug 'google/vim-codefmt'
+Plug 'google/vim-glaive'
 call plug#end()
+
+call maktaba#plugin#Detect()
+call glaive#Install()
+Glaive codefmt plugin[mappings]
 
 " Plugin Settings
 colorscheme dracula
@@ -51,6 +57,8 @@ let g:LanguageClient_serverCommands = {
     \ 'javascript.jsx': ['tcp://127.0.0.1:2089'],
     \ 'python': ['~/.asdf/shims/pyls'],
     \ 'ruby': ['~/.asdf/shims/solargraph', 'stdio'],
+    \ 'c': ['ccls'],
+    \ 'cpp': ['ccls']
     \ }
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
@@ -61,4 +69,5 @@ nnoremap <Leader><Space> :nohlsearch<CR>
 nnoremap <Leader>l :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
-nmap <Leader>f :NERDTreeToggle<CR>
+nmap <Leader>e :NERDTreeToggle<CR>
+nmap <Leader>f :FormatCode<CR>
