@@ -1,6 +1,7 @@
 set guioptions-=T
 set guioptions-=m
-set lines=60
-set columns=100
+set lines=45
+set columns=140
 set noerrorbells
 set vb t_vb=
+set guifont=Ubuntu\ Mono\ Regular\ 13
