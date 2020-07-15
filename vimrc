@@ -44,6 +44,7 @@ Plug 'weirongxu/plantuml-previewer.vim'
 Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
+Plug 'KabbAmine/zeavim.vim'
 call plug#end()
 
 call maktaba#plugin#Detect()
