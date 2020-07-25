@@ -18,7 +18,6 @@ if exists('+termguicolors')
 endif
 set hlsearch!
 set signcolumn=yes
-set cursorline
 set clipboard=unnamedplus
 
 " Plugin Manager
