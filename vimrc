@@ -22,6 +22,7 @@ endif
 set hlsearch!
 set signcolumn=yes
 set clipboard=unnamedplus
+set undodir=~/.vim/undodir
 
 " Plugin Manager
 call plug#begin('~/.vim/plugged')
