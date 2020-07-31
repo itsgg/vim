@@ -4,7 +4,15 @@
 git clone https://github.com/itsgg/vim.git ~/.vim
 ```
 
-In vim ex mode
+## Install language servers
+
+```bash
+gem install solargraph
+pip install pyls
+npm install -g javascript-typescript-langserver 
+```
+
+## Install plugins
 
 ```bash
 :PlugInstall
