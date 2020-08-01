@@ -49,6 +49,7 @@ Plug 'google/vim-maktaba'
 Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 Plug 'KabbAmine/zeavim.vim'
+Plug 'ekalinin/Dockerfile.vim'
 call plug#end()
 
 call maktaba#plugin#Detect()
