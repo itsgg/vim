@@ -51,6 +51,7 @@ Plug 'google/vim-glaive'
 Plug 'KabbAmine/zeavim.vim'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'tpope/vim-liquid'
+Plug 'stephpy/vim-yaml'
 call plug#end()
 
 call maktaba#plugin#Detect()
