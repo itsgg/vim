@@ -13,7 +13,6 @@ set noswapfile
 set hidden
 set wildmenu
 set splitbelow
-set spell
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
@@ -51,6 +50,7 @@ Plug 'google/vim-glaive'
 Plug 'KabbAmine/zeavim.vim'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'tpope/vim-liquid'
+Plug 'tpope/vim-markdown'
 Plug 'stephpy/vim-yaml'
 call plug#end()
 
