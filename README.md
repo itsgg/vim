@@ -16,7 +16,7 @@ sudo apt install ccls
 
 ```bash
 gem install solargraph
-pip install pyls
+pip install 'python-language-server[all]'
 npm install -g javascript-typescript-langserver yarn 
 ```
 
