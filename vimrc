@@ -53,6 +53,7 @@ Plug 'tpope/vim-liquid'
 Plug 'tpope/vim-markdown'
 Plug 'stephpy/vim-yaml'
 Plug 'vim-crystal/vim-crystal'
+Plug 'wlangstroth/vim-racket'
 call plug#end()
 
 call maktaba#plugin#Detect()
