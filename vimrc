@@ -6,9 +6,7 @@ filetype on
 filetype indent on
 filetype plugin on
 set shiftwidth=2
-set tabstop=2
-set expandtab
-set nobackup
+set tabstop=2 set expandtab set nobackup
 set noswapfile
 set hidden
 set wildmenu
@@ -54,6 +52,7 @@ Plug 'tpope/vim-markdown'
 Plug 'stephpy/vim-yaml'
 Plug 'vim-crystal/vim-crystal'
 Plug 'wlangstroth/vim-racket'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 call maktaba#plugin#Detect()
