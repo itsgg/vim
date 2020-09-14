@@ -79,6 +79,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 noremap <Space> <NOP>
 map <Space> <Leader>
 nnoremap <Leader><Space> :nohlsearch<CR>
+nnoremap <Leader>g :GitGutterAll<CR>
 nnoremap <Leader>l :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
